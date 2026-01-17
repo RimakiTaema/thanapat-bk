@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+nav a {
+    @apply transition-colors font-bold relative;
+}
+
+.nav-items::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    height: 2px;
+    background-color: #6366f1;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.nav-items:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.title {
+    @apply text-2xl text-black shadow-black font-bold text-center items-center
+}
