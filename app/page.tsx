@@ -1,5 +1,5 @@
 import NavBar from "@/app/src/navbar/page"
-
+import Link from "next/link"
 export default function Home() {
   return (
     <div>
@@ -13,9 +13,9 @@ export default function Home() {
         It's still under construct And Below Me is Source Code
       </div>
       <div>
-        <a href="https://github.com/RimakiTaema/thanapat2-bk" className="text-shadow-amber-100 text-2xl items-center">
-          Source Code
-        </a>
+        <Link href="https://github.com/RimakiTaema/thanapat-bk" className="text-amber-200 border border-amber-600 rounded-md">
+        Source Code
+        </Link>
       </div>
     </div>
   );
