@@ -15,7 +15,8 @@
 
 This repository contains a **collection of lesson pages** created for the subject **การสร้าง HTML** at โรงเรียนบัวแก้วเกสร.
 **And this Source Code Is Related to rimaki.net site**
-
+**This Website Is not For Production And for Personal Website only**
+**Only fork if want to improve or Fix issues that you wants**
 
 **Key Features:**
 - Each exercise focuses on specific HTML tags or structures
