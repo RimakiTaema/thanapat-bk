@@ -29,7 +29,7 @@ Repository นี้รวบรวมหน้าเว็บไซต์แล
 
 ## 🌐 Live Website / เว็บไซต์
 
-🔗 **View the site:** https://rimakitaema.github.io/thanapat2-bk/
+🔗 **View the site:** https://rimakitaema.github.io/thanapat-bk/
 
 > Statically generated and auto-deployed via GitHub Actions
 
