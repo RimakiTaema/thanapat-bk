@@ -1,6 +1,21 @@
 import Link from "next/link"
 import React from "react"
 
+// Yea I hate Tailwindcss for define class independently :(
+
+const card =
+  "bg-white rounded-xl border border-gray-200 shadow-sm p-6 flex flex-col"
+
+const cardTitle =
+  "mb-2 text-xl font-semibold text-gray-900"
+
+const cardDesc =
+  "text-gray-600 mb-6 flex-1"
+
+const button =
+  "inline-flex items-center justify-center self-start rounded-md bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700 transition"
+
+
 export default function ExercisePage() {
     const exc = [
         { name: "EX1 (3.1)", desc: "Unknown", href: "/ex/ex1" },
@@ -21,19 +36,19 @@ export default function ExercisePage() {
                 {exc.map((item) => (
                     <div
                         key={item.name}
-                        className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 flex flex-col"
+                        className={card}
                     >
                         <h5 className="mb-2 text-xl font-semibold text-gray-900">
                             {item.name}
                         </h5>
 
-                        <p className="text-gray-600 mb-6 flex-1">
+                        <p className={cardTitle}>
                             {item.desc}
                         </p>
 
                         <Link
                             href={item.href}
-                            className="inline-flex items-center justify-center self-start rounded-md bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700 transition"
+                            className={cardDesc}
                         >
                             Look In It
                             <svg
