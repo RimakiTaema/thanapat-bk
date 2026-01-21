@@ -38,17 +38,17 @@ export default function ExercisePage() {
                         key={item.name}
                         className={card}
                     >
-                        <h5 className="mb-2 text-xl font-semibold text-gray-900">
+                        <h5 className={cardTitle}>
                             {item.name}
                         </h5>
 
-                        <p className={cardTitle}>
+                        <p className={cardDesc}>
                             {item.desc}
                         </p>
 
                         <Link
                             href={item.href}
-                            className={cardDesc}
+                            className={button}
                         >
                             Look In It
                             <svg
