@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Itim } from "next/font/google";
 import "./globals.css";
 import NavBar from "./src/navbar/page";
 import Footer from "./src/component/footer";
@@ -13,6 +13,13 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const itim = Itim({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-itim',
+});
+
 
 export const metadata: Metadata = {
   title: "Thanapat-BK",

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link"
 
 const footernav = [
     {name: "About", href: "/about"},
@@ -15,7 +16,7 @@ export default function Footer() {
                 </p>
                 <div className="flex justify-center space-x-4 mt-2">
                     {footernav.map ((item) => (
-                        <a key={item.name} href={item.href}>{item.name}</a>
+                        <Link key={item.name} href={item.href}>{item.name}</Link>
                     ))} 
                 </div>
             </div>

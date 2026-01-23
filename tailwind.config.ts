@@ -7,7 +7,11 @@ module.exports = {
     // Your content files here
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        itim: ['Itim', 'cursive'],
+      },
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),
