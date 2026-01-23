@@ -11,46 +11,30 @@ export default function AboutPage() {
     ]
     return (
         <div>
-            <div className="shadow-amber-50 font-bold text-2xl">
-                Credits
+            <div className="shadow-amber-50 text-center font-bold text-4xl">
+                About
             </div>
-            <div className="shadow-amber-100 font-medium">
-                Sources
+            <br />
+            <div className="items-center text-center content-center">
+                Developer (ผู้จัดทำ)
+                <div>
+                    <img className="mx-auto items-center content-center object-center size-48" src="https://avatars.githubusercontent.com/u/146542478" alt="DevProfile" />
+                </div>
+                <div className="text-2xl fonts-bold">
+                    Thanapat Srisupasiriwong
+                </div>
+                <div className="fonts-medium text-shadow-amber-100">
+                    นาย ธนพัฒน์ ศรีศุภศิริวงศ์
+                </div>
             </div>
-            {ImgSource.map((item) => (
-                    <div
-                        key={item.resname}
-                        className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 flex flex-col"
-                    >
-                        <h5 className="mb-2 text-xl font-semibold text-gray-900">
-                            {item.resname}
-                        </h5>
-
-                        <p className="text-gray-600 mb-6 flex-1">
-                            ----
-                        </p>
-
-                        <Link
-                            href={item.href}
-                            className="inline-flex items-center justify-center self-start rounded-md bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700 transition"
-                        >
-                            Read More
-                            <svg
-                                className="w-4 h-4 ml-2"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                            >
-                                <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M19 12H5m14 0-4 4m4-4-4-4"
-                                />
-                            </svg>
-                        </Link>
-                    </div>
-                ))}
+            <div className="">
+                
+            </div>
+            <br />
+            <div className="shadow-amber-100 text-center text-2xl font-medium">
+                Sources (แหล่งที่มา)
+            </div>
+            
         </div>
     )
 }
