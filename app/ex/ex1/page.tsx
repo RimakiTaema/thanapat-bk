@@ -1,16 +1,16 @@
-import React from "react";
-
 export default function Ex1Page() {
-    return (
-        <html>
-            <head>
-                <title>
-                    3.1
-                </title>
-            </head>
-            <body>
-                Unknown
-            </body>
-        </html>
-    )
+  return (
+    <div className="p-8">
+      <p className="mb-4">Computer - Default Size</p>
+
+      <div className="prose">
+        <h1>เราดี ดีกว่า ดวงดี ขนาด - H1</h1>
+        <h2>เราดี ดีกว่า ดวงดี ขนาด - H2</h2>
+        <h3>เราดี ดีกว่า ดวงดี ขนาด - H3</h3>
+        <h4>เราดี ดีกว่า ดวงดี ขนาด - H4</h4>
+        <h5>เราดี ดีกว่า ดวงดี ขนาด - H5</h5>
+        <h6>เราดี ดีกว่า ดวงดี ขนาด - H6</h6>
+      </div>
+    </div>
+  );
 }

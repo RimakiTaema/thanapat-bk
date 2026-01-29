@@ -1,4 +1,4 @@
-# Thanapat2 BK
+# Thanapat BK
 
 ![Next.js](https://img.shields.io/badge/Next.js-Static-black?logo=next.js)
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Deployed-222?logo=github)
