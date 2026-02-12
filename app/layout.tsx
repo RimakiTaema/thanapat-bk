@@ -19,7 +19,7 @@ const itim = Itim({
   weight: '400',
   variable: '--font-itim',
 });
-
+const bodycss = "flex flex-col h-screen justify-between"
 
 export const metadata: Metadata = {
   title: "Thanapat-BK",
@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${bodycss} antialiased`}
       >
         <NavBar />
         {children}

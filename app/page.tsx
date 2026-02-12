@@ -18,7 +18,7 @@ const button = "bg-[#7e22ce] text-[#ffffff] w-full font-bold text-base  p-3 roun
 
 export default function Home() {
   return (
-    <div className="flex flex-col p-8">
+    <div>
         <div className="pb-6 text-center text-2xl font-semibold text-gray-800 text-shadow-blue-200">
           Thanapat-BK (rimaki.net)
         </div>
