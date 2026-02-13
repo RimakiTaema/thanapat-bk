@@ -8,7 +8,7 @@
 
 > This repository and website are part of classroom assignments.  
 > Repository และเว็บไซต์นี้เป็นส่วนหนึ่งของงานในชั้นเรียน
-
+(Bruh Got Rejected Sorry)
 ---
 
 ## 📚 About This Project / เกี่ยวกับโปรเจกต์
